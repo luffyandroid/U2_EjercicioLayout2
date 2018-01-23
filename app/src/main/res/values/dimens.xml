@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingGeneral">16dp</dimen>
+    <dimen name="texsizeboton">20dp</dimen>
+    <dimen name="cabecera">150dp</dimen>
+    <dimen name="textobotonbloque">30dp</dimen>
+    <dimen name="anchobotonbloque">40dp</dimen>
+    <dimen name="altobotonbloque">25dp</dimen>
+    <dimen name="anchobotonejer2">30dp</dimen>
+    <dimen name="tamaniotextobotonejer2">15dp</dimen>
+</resources>

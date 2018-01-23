@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/lobo"
     tools:context="com.example.didact.u2_ejerciciolayout2.MainActivity">
 
     <LinearLayout
@@ -19,14 +20,21 @@
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:background="@color/colorverde"
+            android:padding="@dimen/paddingGeneral"
+            android:text="@string/botonAceptar"
+            android:textSize="26dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimary"/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            style="@style/estiloBotonGuardar"
+            />
     </LinearLayout>
 
     <LinearLayout
